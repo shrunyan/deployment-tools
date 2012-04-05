@@ -26,19 +26,13 @@ USER=''
 USER_GRP=''
 
 #Temps and backups
-TEMP=/c/git/developer/svn-tag-$TAG/
+TEMP=/home/checkouts/svn-tag-$TAG/
 BACKUP=/home/backups/site-uploads-$(date +"%F-%H%M%S").tar.gz
 
 # Stage Location
-STAGE=/var/www/vhosts/stage/public/
-
-# Production Location
-# These paths are tailored towards an ExpressionEngine setup
-PROD=/var/www/vhosts/prod/public/
-PROD_UPLOADS=/var/www/vhosts/prod/public/htdocs/img/uploads/
-PROD_CACHE=/var/www/vhosts/prod/public/htdocs/cache/
-PROD_CACHE_EE=/var/www/vhosts/prod/public/eecms/expressionengine/cache/
-
+STAGE=/path/to/stage/public/
+STAGE_UPLOADS=/path/to/stage/public/img/uploads/
+STAGE_CACHE=/path/to/stage/public/cache/
 
 
 ##################################################################################
